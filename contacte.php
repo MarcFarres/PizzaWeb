@@ -47,9 +47,9 @@
                             <li class="menu-item menu-item-home"><a href="index.html">Home</a></li>
                             <li class="menu-item"><a href="menu.html">Menu</a></li>
                             <li class="menu-item"><a href="pizzas.html">Pizzas</a></li>
-                            <li class="menu-item"><a href="about.html">About us</a></li>
-                            <li class="menu-item current-menu-items current_page_item"><a href="contact.html">Contact</a></li>
-                            <li class="menu-item"><a href="blog.html">Blog</a></li>
+                            <li class="menu-item"><a href="about.html">Qui som</a></li>
+                            <li class="menu-item current-menu-items current_page_item"><a href="contact.html">Contacte</a></li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -76,7 +76,7 @@
                     </ul>
                 </div>
                 <div class="footer-content">
-                    @ 2017 Alberto's. Made by <a href="http://themeforest.net/user/max-themes/portfolio" title="Pego HTML Themes">Max-Themes</a>.</div>
+                    @ 2018 Inscat 
             </div>
         </div>
 
@@ -86,9 +86,9 @@
                     <li class="menu-item menu-item-home "><a href="index.html">Home</a></li>
                     <li class="menu-item"><a href="menu.html">Menu</a></li>
                     <li class="menu-item"><a href="pizzas.html">Pizzas</a></li>
-                    <li class="menu-item"><a href="about.html">About us</a></li>
-                    <li class="menu-item current-menu-items current_page_item"><a href="contact.html">Contact</a></li>
-                    <li class="menu-item"><a href="blog.html">Blog</a></li>
+                    <li class="menu-item"><a href="about.html">Qui som</a></li>
+                    <li class="menu-item current-menu-items current_page_item"><a href="contact.html">Contacte</a></li>
+                    
                 </ul>
             </div>
         </div>
@@ -103,7 +103,7 @@
                     <div class="page-title-outher">
                         <div class="page-title-inner">
                             <span class="page-title-icon flaticon-pizza-slice"></span>
-                            <h1 class="page-title">Contact</h1>
+                            <h1 class="page-title">Contacte</h1>
                             <div class="clear"></div>
                         </div>
                         <div class="clear"></div>
@@ -117,24 +117,24 @@
                     <div class="contact-info-wrapper">
                         <div class="contact-details">
                             <div class="contact-detail contact-detail1">
-                                <div class="contact-detail-title">Address</div>
+                                <div class="contact-detail-title">Adreça</div>
                                 <div class="contact-detail-content">
-                                    <p>3021 Lady Bug Drive<br /> Brooklyn, NY 11230, USA</p>
+                                    <p>Passeig de l'Industria nº 41<br /> Berga - Barcelona/p>
                                 </div>
                             </div>
                             <div class="contact-detail contact-detail2">
-                                <div class="contact-detail-title">Call or write</div>
+                                <div class="contact-detail-title">Truca o escriu</div>
                                 <div class="contact-detail-content">
-                                    <p><strong>Phone / </strong>00386 40 868 300<br />
-                                        <strong>Email / </strong>info@somedomain.com</p>
+                                    <p><strong>Telefon / </strong>93 821 03 64<br />
+                                        <strong>Email / </strong>pizza.nyam@gmail.com</p>
                                 </div>
                             </div>
                             <div class="contact-detail contact-detail3">
-                                <div class="contact-detail-title">Opening hours</div>
+                                <div class="contact-detail-title">Els nostres Horaris</div>
                                 <div class="contact-detail-content">
-                                    <p><strong>Mon – Fri / </strong>8am – 11pm<br />
-                                        <strong>Saturday / </strong>8am – 1am<br />
-                                        <strong>Sunday</strong> (closed)</p>
+                                    <p><strong>Diumenge a Divendres / </strong>12am – 11pm<br />
+                                        <strong>Dissabtes / </strong>12am – 1am<br />
+                                        <strong>Dilluns</strong> (Tancat)</p>
                                 </div>
                             </div>
                         </div>
@@ -144,7 +144,7 @@
 
                                 <form id="contact-form" action="#">
                                     <div class="albertos-contact-form">
-                                        <div class="contact-detail-title">Contact Form</div>
+                                        <div class="contact-detail-title">Contacte Amb nosaltres</div>
                                         <div class="app-name"><span class="wpcf7-form-control-wrap name-input">
                                             <input name="name" id="name" type="text" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Name" /></span></div>
                                         <div class="app-phone"><span class="wpcf7-form-control-wrap email-input">
@@ -186,7 +186,7 @@
                 </ul>
             </div>
             <div class="footer-content">
-                @ 2017 Alberto's. Made by <a href="http://themeforest.net/user/max-themes/portfolio" title="Pego HTML Themes">Pego</a> &amp; <a href="https://HTML.org/" title="HTML Themes">HTML</a>. </div>
+                @ 2018 Inscat 
         </div>
     </div>
 

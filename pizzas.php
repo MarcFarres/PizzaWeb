@@ -13,7 +13,7 @@
     <!-- Favicon Icon -->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon" />
     <link rel="icon" href="images/favicon.ico" type="image/x-ico" />
-    <title>ALBERTOS - Pizza & Restaurant HTML Template</title>
+    <title>PIZZA NYAM</title>
 
     <link rel='stylesheet' href='rs-slider/css/settings.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/animsition.css' type='text/css' media='all' />
