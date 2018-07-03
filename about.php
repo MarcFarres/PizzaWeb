@@ -10,7 +10,7 @@
 
     <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon" />
     <link rel="icon" href="images/favicon.ico" type="image/x-ico" />
-    <title>ALBERTOS - Pizza & Restaurant HTML Template</title>
+    <title>PIZZA NYAM - Pizza & Restaurant</title>
 
     <link rel='stylesheet' href='rs-slider/css/settings.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/animsition.css' type='text/css' media='all' />
@@ -47,7 +47,7 @@
                     <div class="page-title-outher">
                         <div class="page-title-inner">
                             <span class="page-title-icon flaticon-pizza-slice"></span>
-                            <h1 class="page-title">About us</h1>
+                            <h1 class="page-title">Qui som</h1>
                             <div class="clear"></div>
                         </div>
                         <div class="clear"></div>
