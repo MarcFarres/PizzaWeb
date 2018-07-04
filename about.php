@@ -3,14 +3,14 @@
 
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8">  
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="format-detection" content="telephone=no" />
 
     <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon" />
     <link rel="icon" href="images/favicon.ico" type="image/x-ico" />
-    <title>ALBERTOS - Pizza & Restaurant HTML Template</title>
+    <title>PIZZA NYAM - Pizzeria & Restaurant</title>
 
     <link rel='stylesheet' href='rs-slider/css/settings.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/animsition.css' type='text/css' media='all' />
