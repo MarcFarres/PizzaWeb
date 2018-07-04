@@ -2,9 +2,9 @@
 
 <div id="header" class="header-wrapper">
             <div class="logo">
-                <a href="index.html" title="ALBERTOS - Pizza HTML Theme">
-                  <img class="logoImage" src="images/logo.png" alt="ALBERTOS - Pizza HTML Theme" />
-                  <img class="logoImageRetina" src="images/logo-retina.png" alt="ALBERTOS - Pizza HTML Theme" />
+                <a href="index.html" title="PIZZA NYAM">
+                  <img class="logoImage" src="images/logo.png" alt="PIZZA NYAM" />
+                  <img class="logoImageRetina" src="images/logo-retina.png" alt="PIZZA NYAM" />
                 </a>
                 <div class="clear"></div>
             </div>
@@ -58,9 +58,9 @@
                     <li class="menu-item menu-item-home current-menu-items current_page_item"><a href="index.html">Home</a></li>
                     <li class="menu-item"><a href="menu.html">Menu</a></li>
                     <li class="menu-item"><a href="pizzas.html">Pizzas</a></li>
-                    <li class="menu-item"><a href="about.html">About us</a></li>
+                    <li class="menu-item"><a href="about.html">Qui som</a></li>
                     <li class="menu-item"><a href="contact.html">Contact</a></li>
-                    <li class="menu-item"><a href="blog.html">Blog</a></li>
+                    
                 </ul>
             </div>
         </div>
