@@ -1,8 +1,8 @@
 <?php 
 
 $home_slider = [
-  1 => ['thumb'=>'images/download10.jpg','img'=>'upload/slide4.jpg'],
-  2 => ['thumb'=>'upload/bg-pizza-100x50.jpg','img'=>'upload/bg-pizza.jpg'],
-  3 => ['thumb' =>'upload/slide5-100x50.jpg','img'=>'upload/slide5.jpg']
+  1 => ['thumb'=>'images/slide1.jpg','img'=>'images/slide1.jpg'],
+  2 => ['thumb'=>'images/slide3.jpg','img'=>'images/slide3.jpg'],
+  3 => ['thumb' =>'images/slide4.jpg','img'=>'images/slide4.jpg']
   
 ];

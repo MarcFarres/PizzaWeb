@@ -32,14 +32,14 @@
         ?>
 
         <div class="container-wrapper">
-            <div class="page-bg" style=" background-image: url(upload/bg-pizza.jpg); "></div>
+            <div class="page-bg" style=" background-image: url(images/bg-pizza.jpg); "></div>
             <div id="container">
                 <!-- start container -->
                 <div class="page-title-wrapper">
                     <div class="page-title-outher">
                         <div class="page-title-inner">
                             <span class="page-title-icon flaticon-pizza-slice"></span>
-                            <h1 class="page-title">Menu</h1>
+                            <h1 class="page-title">El nostre menú</h1>
                             <div class="clear"></div>
                         </div>
                         <div class="clear"></div>
@@ -49,73 +49,46 @@
                 <div class="page-wrapper">
                     <div class="offer-menu-wrapper">
                         <ul id="filters" class="single-offer-category-filter option-set" data-option-key="filter">
-                            <li class="filter-cat"><a class="selected" href="#filter" data-option-value=".cat1">Pizza</a></li>
-                            <li class="filter-cat"><a href="#filter" data-option-value=".cat2">Pizza Slice</a></li>
-                            <li class="filter-cat"><a href="#filter" data-option-value=".cat3">Pizza Rolls</a></li>
+                <?php $counter = 1; ?>
+                <?php foreach ($menu as $cat=>$product) { ?>
+                            <li class="filter-cat">
+                                <a class="<?php if($counter==1){echo 'selected';} ?>" 
+                                   href="#filter" 
+                                   data-option-value=".cat<?php echo $counter; ?>"><?php echo $cat; ?>    
+                                </a>
+                            </li>
+                            <?php $counter++; ?>
+                <?php } // Fi de menú de categories ---------------------- ?>
                         </ul>
-
                         <div class="offer-menu-items">
-
-<?php // categoria 1 ---------------------- ?>
-
-                            <div class="single-offer-category-item isotope-item cat1">
-
-<?php foreach ($pizzes['cat1'] as $pizza) { ?>
-
-                                <div class="single-offer-item">
-                                    <div class="single-offer-details">
-                                        <div class="single-offer-title"><?php echo $pizza['titol'] ?></div>
-                                        <div class="single-offer-content">
-                                            <p><?php echo $pizza['ingredients'] ?></p>
-                                        </div>
-                                    </div>
-                                    <div class="single-offer-price"><?php echo $pizza['preu'] ?></div>
-                                    <div class="clear"></div>
-                                </div>
-
-<?php }
-//categoria 2 -------------------------------- ?>
-
-                            </div>
-                            <div class="single-offer-category-item isotope-item cat2">
-
-<?php foreach ($pizzes['cat2'] as $pizza) { ?>
-
-                                 <div class="single-offer-item">
-                                    <div class="single-offer-details">
-                                        <div class="single-offer-title"><?php echo $pizza['titol'] ?></div>
-                                        <div class="single-offer-content">
-                                            <p><?php echo $pizza['ingredients'] ?></p>
-                                        </div>
-                                    </div>
-                                    <div class="single-offer-price"><?php echo $pizza['preu'] ?></div>
-                                    <div class="clear"></div>
-                                </div>                 
-<?php }
-//categoria 3 -------------------------------- ?>                                                           
-                            </div>
-                            <div class="single-offer-category-item isotope-item cat3">
-
-<?php foreach ($pizzes['cat3'] as $pizza) { ?>
-
-                                <div class="single-offer-item">
-                                    <div class="single-offer-details">
-                                        <div class="single-offer-title"><?php echo $pizza['titol'] ?></div>
-                                        <div class="single-offer-content">
-                                            <p><?php echo $pizza['ingredients'] ?></p>
-                                        </div>
-                                    </div>
-                                    <div class="single-offer-price"><?php echo $pizza['preu'] ?></div>
-                                    <div class="clear"></div>
-                                </div>     
-   <?php }
-//categoria 4 -------------------------------- ?>                            
-                            </div>
+                            
+<?php $counter = 1; ?>
+<?php foreach ($menu as $cat=>$products) { ?>
+                            <div class="single-offer-category-item isotope-item cat<?php echo $counter; ?>">
+                            <?php $counter++; ?>
+<?php foreach ($products as $product) { ?>
 
                             
+                                <div class="single-offer-item">
+                                    <div class="single-offer-details">
+                                        <div class="single-offer-title"><?php echo $product['titol'] ?></div>
+                                        <div class="single-offer-content">
+                                            <p><?php echo $product['ingredients'] ?></p>
+                                        </div>
+                                    </div>
+                                    <div class="single-offer-price"><?php echo $product['preu'] ?></div>
+                                    <div class="clear"></div>
+                                </div>
+                            
+
+<?php } // fi de les categories -------------------------------- ?>
+                            </div>
+<?php } // fi dels productes -------------------------------- ?>
+
                         </div>
                         <div class="clear"></div>
                     </div>
+                    <!-- end offer-menu-wrapper -->
                 </div>
                 <!-- end page wrapper -->
             </div>

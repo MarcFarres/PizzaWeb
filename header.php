@@ -3,8 +3,8 @@
 <div id="header" class="header-wrapper">
             <div class="logo">
                 <a href="index.html" title="PIZZA NYAM">
-                  <img class="logoImage" src="images/logo.png" alt="PIZZA NYAM" />
-                  <img class="logoImageRetina" src="images/logo-retina.png" alt="PIZZA NYAM" />
+                  <!-- img class="logoImage" src="images/logo.png" alt="PIZZA NYAM" / -->
+                  <!-- img class="logoImageRetina" src="images/logo-retina.png" alt="PIZZA NYAM" / -->
                 </a>
                 <div class="clear"></div>
             </div>
@@ -13,15 +13,15 @@
                     <div class="menu-main-nav-menu-container">
                         <ul id="menu-main-nav-menu" class="sf-menu">
                             <li class="menu-item <?php echo ($selected == 'home' ? $selected_styles : ''); ?>">
-                              <a href="index.php">Home</a>
+                              <a href="index.php">Inici</a>
                             </li>
                             <li class="menu-item <?php echo ($selected == 'menu' ? $selected_styles : ''); ?>">
-                              <a href="menu.php">Menu</a>
+                              <a href="menu.php">Menú</a>
                             </li>
                             <li class="menu-item <?php echo ($selected == 'pizzes' ? $selected_styles : ''); ?>">
                               <a href="pizzas.php">Pizzes</a>
                             </li>
-                            <li class="menu-item <?php echo ($selected == 'about' ? $selected_styles : ''); ?>">  <a href="about.php">Sobre Nosaltres</a>
+                            <li class="menu-item <?php echo ($selected == 'about' ? $selected_styles : ''); ?>">  <a href="about.php">Sobre Nosaltres   </a>
                             </li>
                             <li class="menu-item"><a href="contacte.php">Contacte</a></li>
                         </ul>
