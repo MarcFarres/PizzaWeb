@@ -2,7 +2,12 @@
 
 $pizzes = [
 // pizzes
- 
+    [
+      'titol'=>'Clasica',
+      'ingredients'=>'tomaquet orenga i mozzarela',
+      'preu'=>'$8.50',
+      'imatge'=>'classic.jpg'
+    ],
     [
       'titol'=>'Hawaii',
       'ingredients'=>'Pinya, olives negres, tomaquet i mozzarela',
@@ -26,7 +31,19 @@ $pizzes = [
       'ingredients' => 'Pepperoni, formatge fresc, olives negres, tomàquet i mozzarela',
       'preu'=> '$8.50',
       'imatge'=>'napolitana.jpg'
-    ]
+    ],
+    [
+      'titol' => 'Calzone',
+      'ingredients' => 'Pepperoni, formatge fresc, olives negres, tomàquet i mozzarela',
+      'preu'=> '$10.50',
+      'imatge'=>'calzone.jpg'
+    ],
+    [
+      'titol' => 'Formatge de cabra ?',
+      'ingredients' => 'Formatge fresc de cabra, tomàquet i mozzarela',
+      'preu'=> '$10.50',
+      'imatge'=>'formatge.jpg'
+    ],
 ];
 
 
