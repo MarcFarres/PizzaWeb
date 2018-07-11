@@ -46,7 +46,7 @@
                     </div>
                 </div>
                 <div class="clear"></div>
-                <div class="page-wrapper">
+                <div class="page-wrapper" id="menu-container">
                     <div class="offer-menu-wrapper">
                         <ul id="filters" class="single-offer-category-filter option-set" data-option-key="filter">
                 <?php $counter = 1; ?>

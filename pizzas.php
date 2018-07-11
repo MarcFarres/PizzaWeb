@@ -46,26 +46,28 @@
                     </div>
                 </div>
                 <div class="clear"></div>
-                <div class="page-wrapper">
+                <div id="pizzas-container" class="page-wrapper">
                     <div class="offer-menu2-wrapper">
                         <div class="offer-menu2-items">
 
 <?php foreach ($pizzes as $pizza) { ?>
             <div class="offer-menu2-item-single">
 
-            <img class="offer-menu2-frame" src="images/frame.png" />
+                <img class="offer-menu2-frame" src="images/frame.png" />
 
-            <div class="offer-menu2-shadow"></div>
-            <div class="offer-menu2-thumb">
-                <img class="offer-menu2-inner-frame" src="images/inner-shadow.png" />
-            </div>
-            <div class="offer-menu2-thumb-image">
-                <img src="upload/hawaii-313x220.jpg" width="313" height="220" alt="hawaii" /></div>
-            <div class="clear"></div>
+                <div class="offer-menu2-shadow"></div>
+                <div class="offer-menu2-thumb">
+                    <img class="offer-menu2-inner-frame" src="images/inner-shadow.png" />
+                </div>
+                <div class="offer-menu2-thumb-image">
+                    <img src="images/<?php echo $pizza['imatge'] ?>" width="313" height="220" alt="hawaii" />
+                </div>
+                <div class="clear"></div>
                 <span class="offer-menu2-icon flaticon-pizza-slice"></span>
-            <div class="offer-menu2-details">
-            <div class="single-offer-menu2-title">
-                <?php echo $pizza['titol'] ?></div>
+                <div class="offer-menu2-details">
+                <div class="single-offer-menu2-title">
+                    <?php echo $pizza['titol'] ?>
+                </div>
             <div class="single-offer-menu2-content">
                 <p><?php echo $pizza['ingredients'] ?></p>
             </div>

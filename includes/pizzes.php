@@ -5,33 +5,27 @@ $pizzes = [
  
     [
       'titol'=>'Hawaii',
-      'ingredients'=>'Pineapple, mushrooms, black olives, tomato sauce',
-      'preu'=>'$5.50',
-      'imatge'=>''
+      'ingredients'=>'Pinya, olives negres, tomaquet i mozzarela',
+      'preu'=>'$8.50',
+      'imatge'=>'hawai.jpg'
     ],
     [
-      'titol' => 'Freshness',
-      'ingredients' => 'Fresh tomatoes, garlic, red onion, cheese, minced meat, dandelion, olives',
-      'preu'=> '$8.40',
-      'imatge'=>''
+      'titol' => 'Fresca',
+      'ingredients' => 'Tomaquet, all, pegrot vermell, mozzarela i tomàquet',
+      'preu'=> '$9.50',
+      'imatge'=>'fresca.jpg'
     ],
     [
-      'titol'=>'From sea',
-      'ingredients'=>'Olive, meta, squid, shrimps, fresh mushrooms, fresh red tomatoes, cheese',
-      'preu'=>'$6.40',
-      'imatge'=>''
+      'titol'=>'Marinera',
+      'ingredients'=>'Peix, marisc, tomàquet, mozzarela i orenga',
+      'preu'=>'$11',
+      'imatge'=>'marinera.jpg'
     ],
     [
-      'titol' => 'Classic',
-      'ingredients' => 'Pepperoni, cheese, black olives, tomatoe sauce, mushrooms, meat, onion, salad',
-      'preu'=> '$6.10',
-      'imatge'=>''
-    ],
-    [
-      'titol'=>'TUNA, CHEESE, ONION, CORN',
-      'ingredients'=>'Big portion 6 pieces',
-      'preu'=>'$2.80',
-      'imatge'=>''
+      'titol' => 'Napolitana',
+      'ingredients' => 'Pepperoni, formatge fresc, olives negres, tomàquet i mozzarela',
+      'preu'=> '$8.50',
+      'imatge'=>'napolitana.jpg'
     ]
 ];
 

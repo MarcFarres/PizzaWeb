@@ -1,0 +1,9 @@
+#pizzas-container {
+    background-image:url("../images/background.jpg"); 
+}
+#menu-container{
+	background-image: url("../images/download.png");
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-size: 100px auto;
+}

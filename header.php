@@ -3,7 +3,7 @@
 <div id="header" class="header-wrapper">
             <div class="logo">
                 <a href="index.html" title="PIZZA NYAM">
-                  <!-- img class="logoImage" src="images/logo.png" alt="PIZZA NYAM" / -->
+                  <img class="logoImage" src="images/logo.jpg" alt="PIZZA NYAM" />
                   <!-- img class="logoImageRetina" src="images/logo-retina.png" alt="PIZZA NYAM" / -->
                 </a>
                 <div class="clear"></div>

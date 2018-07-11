@@ -10,3 +10,4 @@
     <link rel='stylesheet' href='css/style.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/media.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/custom_script.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/custom.css' type='text/css' media='all' />
