@@ -25,7 +25,7 @@
     <link rel='stylesheet' href='css/owl.transitions.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/style.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/media.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='css/custom_script.css' type='text/css' media='all' />
+    <!-- link rel='stylesheet' href='css/custom_script.css' type='text/css' media='all' /-->
 
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Merriweather%3A%2C400%7CPatua+One%3A400&amp;ver=1.0.0' type='text/css' media='all' />
     <link href="http://fonts.googleapis.com/css?family=Patua+One:400" rel="stylesheet" property="stylesheet" type="text/css" media="all">
@@ -36,7 +36,7 @@
 <body class="home page-template page-template-template-home page-template-template-home-php page page-id-7">
     <div class="animsition global-wrapper">
         <?php 
-          $selected = 'home';
+          $selected = 'contacte';
           include('header.php');
         ?>
         <div class="container-wrapper">

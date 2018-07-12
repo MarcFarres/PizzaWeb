@@ -17,7 +17,7 @@ $(document).ready(function($) {
         
         $.ajax({
             type: "POST",
-            url: 'contact.php',
+            url: 'contact_form.php',
             dataType: 'json',
             cache: false,
             data: $('#contact-form').serialize(),
