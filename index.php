@@ -87,9 +87,10 @@
                         </div>
 
                         <!-- LAYER NR. 2 -->
-                        <div class="tp-caption   tp-resizeme tp-static-layer" id="slider-1-layer-6" data-x="['center','center','center','center']" data-hoffset="['0','110','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-16','-16','74','70']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-startslide="0" data-endslide="2" data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['middle','middle','middle','middle']" data-paddingtop="[5,5,5,5]" data-paddingright="[40,40,40,40]" data-paddingbottom="[5,5,5,5]" data-paddingleft="[40,40,40,40]" style="z-index: 6; white-space: nowrap; font-size: 140px; line-height: 140px; font-weight: 400; color: rgba(250, 185, 64, 1.00);font-family:Patua One;background-color:rgba(36, 36, 36, 1.00);border-radius:10px 10px 10px 10px;">
+                        <div class="tp-caption   tp-resizeme tp-static-layer" id="slider-1-layer-6" data-x="['center','center','center','center']" data-hoffset="['0','110','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-16','-16','74','70']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-startslide="0" data-endslide="2" data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['middle','middle','middle','middle']" data-paddingtop="[5,5,5,5]" data-paddingright="[40,40,40,40]" data-paddingbottom="[15,15,15,15]" data-paddingleft="[40,40,40,40]" style="z-index: 6; white-space: nowrap; font-size: 140px;text-align:center;line-height: 140px; font-weight: 400; color: rgba(250, 185, 64, 1.00);font-family:Patua One;background-color:rgba(36, 36, 36, 1.00);border-radius:10px 10px 10px 10px;">
 
-                        PizzaNyam ! 
+                        Pizza <br>
+                        Nyam ! 
 
                         </div>
                     </div>

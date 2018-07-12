@@ -40,7 +40,7 @@
           include('header.php');
         ?>
         <div class="container-wrapper">
-            <div class="page-bg" style=" background-image: url(upload/bg-pizza.jpg); "></div>
+            <div class="page-bg" style=" background-image: url('images/bg-pizza 2.jpg'); "></div>
             <div id="container" class="template-contact-container">
                 <!-- start container -->
                 <div class="page-title-wrapper">
